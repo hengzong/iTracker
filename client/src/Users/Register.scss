@@ -1,0 +1,12 @@
+@import "../shared.scss";
+@import "./Login.scss";
+
+#login-form {
+  margin-top: -60px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  Align-items: center;
+  justify-content: center;
+}

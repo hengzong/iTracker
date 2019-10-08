@@ -1,0 +1,44 @@
+@import "./shared.scss";
+
+.loginHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: $header-height;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 998;
+  padding: 0 2rem;
+  background: $background-color-dark;
+  // background-color: white;
+
+  .userContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #website-name {
+    padding-left: 20px;
+    color: $theme-white;
+    font-size: 60px;
+    font-family: $theme-font;
+  }
+
+  #member {
+    color: $theme-white;
+    font-family: $theme-font;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 28px;
+  }
+
+  #register-button {
+    height: $button-height;
+  }
+}

@@ -1,0 +1,46 @@
+@import "../shared.scss";
+
+.foldersContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  .folderList {
+    width: 100%;
+    background-color: transparent;
+
+    .folderPanel div,
+    .folderPanel div a {
+      color: $theme-white;
+    }
+  }
+
+  #addButton {
+    align-self: flex-end;
+    margin-bottom: 1rem;
+  }
+}
+
+.logoutButton {
+  margin-top: $button-height;
+
+  #logoutButton {
+    height: $button-height;
+  }
+}
+
+.folderButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 17px;
+}
+
+.bookmarkTitle {
+  font-family: $theme-font;
+  color: $theme-white;
+  font-size: 3rem;
+}
